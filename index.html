@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OceanAI</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link id="thememode" rel="stylesheet" href="css/darkmode.css">
+  </head>
+  <body>
+    <div class="downloadpanel" id="downwindows">
+      <h2>Descarga OceanAI para tu computadora</h2>
+      <img id="ilus" src="img/ilustration.png" alt="ilustration">
+      <div>
+        <a href="https://www.mediafire.com/file/zsdaegoeaek1xbm/OceanAI-Windows.zip/file" target="_blank"><button><img src="img/windows-8.png"><p>Descargar para Windows 10 y 11</p></button></a>
+        <a href="https://www.mediafire.com/file/xw6s7zfv7bu4pe7/OceanAI-Ubuntu.deb/file" target="_blank"><button><img src="img/plataforma-linux.png"><p>Descargar para Linux (Debian)</p></button></a>
+      </div>
+      <button>Volver</button>
+    </div>
+    <div class="downloadpanel" id="downandroid">
+      <h2>Descarga OceanAI para tu telefono</h2>
+      <img src="img/androidpreset.png" alt="ilustration" style="width: 150px;">
+      <div>
+        <a href="https://www.mediafire.com/file/bbyj5if4gzy2nur/OceanAI-Android.apk/file" target="_blank"><button><img src="img/android.png"><p>Descargar para Android</p></button></a>
+      </div>
+      <button>Volver</button>
+    </div>
+    <div class="toolbar">
+      <div class="navtop">
+        <img src="img/logo.png" alt="">
+        <h1>OceanAI</h1>
+      </div>
+      <hr>
+      <button id="clearchat"><img src="img/barriendo.png"><p>Limpiar Chat</p></button>
+      <button id="modetheme"><img src="img/sol.png"><p>Cambiar a Modo Luz</p></button>
+      <hr>
+      <button id="downwin"><img src="img/windows-8.png"><p>Descargar OceanAI para Windows 10/11 y Linux</p></button>
+      <button id="downand"><img src="img/android.png"><p>Descargar OceanAI para Android</p></button>
+    </div>
+    <div class="chatbox">
+      <div class="presentation" id="presentation">
+        <img id="mainlogo" src="img/logo.png" alt="logo">
+        <h2>Te damos la bienvenida a OceanAI</h2>
+        <p>La tecnologia de ChatGPT en un solo lugar y sin necesidad de registrarte</p>
+      </div>
+      <div class="chat" id="chat">
+      </div>
+      <div class="input-text">
+        <textarea tabindex="0" rows="1" id="textinput" placeholder="Envia un mensaje"></textarea>
+        <button id="sendbtn"></button>
+       </div>
+       <button class="floatbtn" id="reload"><img src="img/reload.png">Volver a generar la respuesta</button>
+       <button class="floatbtn" id="stop"><img src="img/stop-button.png">Dejar de responder</button>
+    </div>
+  
+    <script src="js/main.js"></script>
+   </body>
+</html>
